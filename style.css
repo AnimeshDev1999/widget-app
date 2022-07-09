@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  transition: 0.5s;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.wid {
+  padding: 2rem;
+  height: 65%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mid {
+  padding: 2rem;
+  height: 35%;
+  width: 100%;
+}
+
+.hed {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bot {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.ico {
+  font-size: 5rem;
+}
+
+.th1 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 157, 255, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(./wallpapers/smoke.jpg);
+  color: rgb(185, 223, 255);
+}
+
+.th2 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(66, 52, 52, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(./wallpapers/wave.jpg);
+  color: rgb(0, 52, 52);
+}
+
+.clock {
+  font-size: 5rem;
+}
+
+.greet {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.date {
+  font-size: 1.5rem;
+}
+
+.tod {
+  font-size: 2rem;
+}
+
+.glo + .tod {
+  display: none;
+}
+
+.mid h1 {
+  font-size: 2rem;
+  color: #333333;
+}
+
+.opt {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+  padding: 1rem;
+}
