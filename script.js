@@ -36,8 +36,8 @@ function curDates() {
 }
 
 function curTime() {
-  let hour = date.getHours();
-  let min = date.getMinutes();
+  let hour = new Date().getHours();
+  let min = new Date().getMinutes();
   let tod = "AM";
 
   if (hour >= 12) {
@@ -65,4 +65,4 @@ function themeSw() {
 }
 
 curDates();
-//setInterval(curTime, 1000);
+setInterval(curTime, 1000);

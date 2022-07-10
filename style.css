@@ -85,7 +85,7 @@
 }
 
 .glo + .tod {
-  display: none;
+  filter: opacity(0);
 }
 
 .mid h1 {
