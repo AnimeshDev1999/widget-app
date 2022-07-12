@@ -27,9 +27,10 @@
 }
 
 .mid {
-  padding: 2rem;
+  padding: 1rem;
   height: 35%;
   width: 100%;
+  background-color: #444;
 }
 
 .hed {
@@ -89,15 +90,93 @@
 }
 
 .mid h1 {
+  padding: 1rem;
   font-size: 2rem;
-  color: #333333;
+  color: #ccc;
+  text-align: center;
+  background-color: #333;
+  border-radius: 1rem;
 }
 
 .opt {
   display: grid;
+  color: #ccc;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   text-align: center;
   margin-top: 1rem;
   padding: 1rem;
+  border-radius: 1rem;
+  background-color: #333;
+}
+
+.but {
+  background-color: #333;
+  border: 2px solid #444;
+  border-radius: 50%;
+  height: 1rem;
+  width: 1rem;
+}
+
+.bcont {
+  justify-self: center;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  background-color: #444;
+  width: 3rem;
+  border-radius: 100rem;
+}
+
+.three {
+  justify-content: flex-end;
+}
+
+.three .but {
+  background-color: green !important;
+  border: 2px solid greenyellow !important;
+}
+
+.two {
+  justify-content: flex-end;
+}
+
+.two .but {
+  background-color: green !important;
+  border: 2px solid greenyellow !important;
+}
+
+.one {
+  justify-content: flex-end;
+}
+
+.one .but {
+  background-color: green !important;
+  border: 2px solid greenyellow !important;
+}
+
+.light {
+  background-color: white;
+}
+
+.light h1 {
+  background-color: #ccc;
+  color: #333;
+}
+
+.light .opt {
+  background-color: #ccc;
+  color: #333;
+}
+
+.light .bcont {
+  background-color: white;
+  color: #333;
+}
+
+.light .bcont .but {
+  background-color: white;
+  color: #aaa;
+  border: 2px solid grey;
 }
